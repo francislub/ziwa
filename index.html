@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bugema University Activities</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f2f2f2;
+        }
+        .slides {
+            display: none;
+        }        
+        .title-container {
+            display: flex;
+            align-items: center;
+        }
+        .title-container img {
+            margin-right: 10px;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        .activity-row {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .activity {
+            width: 100%; /* Full width by default */
+            padding: 20px;
+            box-sizing: border-box;
+            margin-bottom: 10px; /* Add some margin between activities */
+        }
+        @media (min-width: 768px) {
+            .activity {
+                width: calc(50% - 10px); /* Two activities side by side on screens wider than 768px */
+                margin-right: 10px; /* Add some margin between activities */
+            }
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            bottom: 0;
+            width: 100%;
+        }
+        /* New styles for navbar */
+        nav {
+            background-color: #555;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+            margin: 0 10px;
+            border-radius: 5px;
+            transition: background-color 0.3s;
+        }
+
+        nav a:hover {
+            background-color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="title-container">
+        <img src="image/log.png" alt="" width="50" height="50">
+        <h1>BUGEMA UNIVERSITY ACTIVITIES</h1>
+    </div>    
+</header>
+<nav>
+    <a href="index.html">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+    <a href="#">Gallery</a>
+</nav>
+
+<div class="container">
+    <div class="activity-row">
+        <div class="activity">
+            <h2>Main Campus Sports Day</h2>
+            <p>Annual event promoting physical fitness and fostering teamwork among students through various sports activities.</p>
+            <p>This event typically includes a wide range of sports such as football, basketball, volleyball, athletics, and more, allowing students to showcase their athletic talents and competitive spirit.</p>
+            <p>Participants engage in friendly competitions, cheering each other on and building camaraderie beyond the classroom.</p>
+            <p>Additionally, Main Campus Sports Day serves as a platform for students to learn important values such as discipline, perseverance, and sportsmanship.</p>
+            <p>It's an exciting day filled with energy and enthusiasm, bringing the entire campus community together in the spirit of sports and healthy living.</p>
+            
+        </div>
+        <div class="activity" id="sports-day-photos">
+            <h2>Sports Day Photos</h2>
+            <div class="slideshow-container">
+                <img class="slides" src="image/f1.jpg" alt="" width="400" height="300">
+                <img class="slides" src="image/f2.jpg" alt="" width="400" height="300">
+                <img class="slides" src="image/f3.jpg" alt="" width="400" height="300">
+                <img class="slides" src="image/f4.jpg" alt="" width="400" height="300">
+                <img class="slides" src="image/f5.jpg" alt="" width="400" height="300">
+            </div>
+        </div>        
+    </div>
+    <div class="activity-row">
+        <div class="activity">
+            <h2>Cultural Festival Photos</h2>
+            <img src="image/ff.jpg" alt="" width="450" height="350">
+        </div>
+        <div class="activity">
+            <h2>Main Campus Cultural Festival</h2>
+            <p>Celebration of diversity through cultural performances, food, and exhibitions showcasing different traditions and customs.</p>
+            <p>This vibrant event features a colorful array of dance, music, and theatrical performances, highlighting the rich tapestry of cultures represented within the campus community.</p>
+            <p>Attendees can indulge in a culinary journey, sampling delicious cuisines from around the world prepared by talented student chefs.</p>
+            <p>Furthermore, the festival includes interactive exhibitions where visitors can learn about various cultural practices, languages, and artistic expressions.</p>
+            <p>Main Campus Cultural Festival fosters cross-cultural understanding and appreciation, fostering a sense of unity and inclusivity among students and faculty.</p>
+            <p>It's an opportunity for everyone to come together, celebrate differences, and embrace the cultural mosaic that makes our campus community vibrant and unique.</p>
+        </div>        
+    </div>
+    <div class="activity-row">
+        <div class="activity">
+            <h2>Main Campus Academic Conference</h2>
+            <p>An intellectual gathering where scholars, researchers, and students present and discuss their academic findings and innovations.</p>
+            <p>This prestigious event serves as a platform for intellectual exchange, fostering collaboration and knowledge-sharing across various disciplines.</p>
+            <p>Participants have the opportunity to engage in thought-provoking discussions, explore emerging trends, and gain insights into cutting-edge research.</p>
+            <p>The conference features keynote speeches, panel discussions, and paper presentations, offering a comprehensive view of the latest advancements in academia.</p>
+            <p>Main Campus Academic Conference is a catalyst for academic growth and innovation, inspiring new ideas and paving the way for future breakthroughs.</p>
+        </div>        
+        <div class="activity photos conference">
+            <h2>Academic Conference Photos</h2>
+            <img src="image/c.jpeg" alt="" width="450" height="300">
+            <img src="image/c1.jpeg" alt="" width="450" height="300">
+            <img src="image/ch.jpeg" alt="" width="450" height="300">
+        </div>
+    </div>
+    <div class="activity-row">
+        <div class="activity">
+            <h2>Main Campus Community Outreach</h2>
+            <p>Initiatives aimed at giving back to the community through volunteering, charity events, and social welfare programs.</p>
+            <p>This ongoing effort involves students, faculty, and staff actively engaging with local organizations and addressing community needs.</p>
+            <p>Activities include food drives, environmental clean-up campaigns, educational workshops, and support for marginalized groups.</p>
+            <p>Main Campus Community Outreach promotes social responsibility and empathy, nurturing a culture of compassion and service among students.</p>
+            <p>By participating in these initiatives, students gain valuable real-world experience and contribute to positive social change.</p>
+        </div>
+        
+        <div class="activity">
+            <h2>Main Campus Career Fair</h2>
+            <p>An event facilitating interaction between students and potential employers, offering internship and job opportunities.</p>
+            <p>This annual fair brings together leading companies and organizations from various industries to connect with talented students.</p>
+            <p>Attendees have the chance to explore career options, network with professionals, and learn about internship and job openings.</p>
+            <p>Main Campus Career Fair provides a platform for students to showcase their skills, experiences, and aspirations to prospective employers.</p>
+            <p>It's a valuable opportunity for students to kick-start their careers and for employers to recruit top talent from the campus community.</p>
+        </div>
+    </div>
+    <div class="activity-row">
+        <div class="activity photos show">
+            <h2>Talent Show Photos</h2>
+            <img src="image/z.jpeg" alt="" width="300" height="300">
+            <img src="image/m.jpeg" alt="" width="300" height="300">
+        </div>
+        <div class="activity">
+            <h2>Main Campus Talent Show</h2>
+            <p>An entertaining showcase of student talents including singing, dancing, comedy, and other performing arts.</p>
+            <p>This eagerly awaited event celebrates the creativity and skill of students, providing a platform for them to shine and express themselves.</p>
+            <p>Attendees can expect an eclectic mix of performances, from soulful ballads to energetic dance routines and hilarious stand-up comedy acts.</p>
+            <p>Main Campus Talent Show promises an evening of laughter, applause, and unforgettable entertainment for the entire campus community.</p>
+        </div>
+        
+    </div>
+    <div class="activity-row">
+        <div class="activity">
+            <h2>Main Campus Health Fair</h2>
+            <p>An event promoting health and wellness among students through educational workshops, screenings, and fitness activities.</p>
+        </div>
+        <div class="activity">
+            <h2>Main Campus Food Festival</h2>
+            <p>A culinary extravaganza featuring a variety of cuisines and delicacies from different cultures and regions.</p>
+            <img src="image/dra.jpeg" alt="" width="500" height="200">
+        </div>
+    </div>
+
+    <div class="activity-row">
+        <div class="activity">
+            <h2>Main Campus Career Development Workshops</h2>
+            <p>Sessions focused on enhancing students' career readiness through resume writing, interview skills, and job search strategies.</p>
+            <p>These workshops provide practical guidance and tools to help students navigate the transition from academia to the professional world.</p>
+            <p>Expert facilitators offer insights into industry trends, networking techniques, and personal branding, empowering students to pursue their career goals with confidence.</p>
+            <p>Main Campus Career Development Workshops equip students with essential skills and knowledge to succeed in today's competitive job market.</p>
+        </div>        
+        <div class="activity">
+            <h2>Main Campus Art Exhibition</h2>
+            <p>An artistic showcase displaying the creative works of students including paintings, sculptures, and digital art.</p>
+            <p>This annual exhibition celebrates the diverse talents and expressions of the campus community, inspiring creativity and appreciation for the arts.</p>
+            <p>Visitors have the opportunity to explore a variety of artistic styles and mediums, from traditional to contemporary, created by emerging artists.</p>
+            <p>Main Campus Art Exhibition provides a platform for students to share their artistic visions and engage in meaningful dialogue with peers and visitors.</p>
+        </div>
+        
+    </div>
+    
+</div>
+<br><br>
+
+<footer>
+    <p>&copy; 2024 Bugema University || Developed by Ziwa </p>
+</footer>
+
+</body>
+</html>
+<script>
+    var slideshows = document.querySelectorAll('.photos');
+
+    slideshows.forEach(function(slideshow) {
+      var currentIndex = 0;
+      var slides = slideshow.querySelectorAll('img');
+
+      function showSlide(index) {
+        for (var i = 0; i < slides.length; i++) {
+          slides[i].style.display = 'none';
+        }
+        slides[index].style.display = 'block';
+      }
+
+      function nextSlide() {
+        currentIndex = (currentIndex + 1) % slides.length;
+        showSlide(currentIndex);
+      }
+
+      setInterval(nextSlide, 2000); // Change slide every 2 seconds
+    });
+
+    let slideIndex1 = 0;
+    const slides1 = document.getElementsByClassName("slides");
+
+    function showSlides1() {
+        for (let i = 0; i < slides1.length; i++) {
+            slides1[i].style.display = "none";  
+        }
+        slideIndex1++;
+        if (slideIndex1 > slides1.length) {
+            slideIndex1 = 1;
+        }    
+        slides1[slideIndex1 - 1].style.display = "block";  
+        setTimeout(showSlides1, 2000); // Change image every 2 seconds
+    }
+    showSlides1();
+
+    let slideIndex2 = 0;
+    const slides2 = document.getElementsByClassName("slides");
+
+    function showSlides2() {
+        for (let i = 0; i < slides2.length; i++) {
+            slides2[i].style.display = "none";  
+        }
+        slideIndex2++;
+        if (slideIndex2 > slides2.length) {
+            slideIndex2 = 1;
+        }
+        slides2[slideIndex2 - 1].style.display = "block";
+        setTimeout(showSlides2, 2000); // Change image every 2 seconds
+    }
+    showSlides2();
+</script>
